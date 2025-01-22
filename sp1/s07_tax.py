@@ -16,5 +16,4 @@ tax = round(taxRate * price, 2)
 total = price + tax
 
 # Output
-msg = "The sales tax is ${:.2f} and the total is ${:.2f}."
-print(msg.format(tax, total))
+print(f"The sales tax is ${tax} and the total is ${total}.")
