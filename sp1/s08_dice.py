@@ -9,10 +9,8 @@ Simulate rolling a pair of dice
 die1 = 6
 die2 = 3
 
-# Do NOT modify any of the code below!!
-
 # Processing
 total = die1 + die2
 
 # Output
-print("You rolled {} + {} = {}".format(die1, die2, total))
+print(f"You rolled {die1} + {die2} = {total}")
