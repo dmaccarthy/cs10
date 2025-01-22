@@ -10,7 +10,7 @@ from math import sqrt
 num = float(input("Please enter a number: "))
 if num >= 0:
     root = sqrt(num)
-    print("The square root of {} is {}.".format(num, root))
+    print(f"The square root of {num} is {root}.")
 else:
     print("The number cannot be negative!")
 
