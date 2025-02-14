@@ -5,6 +5,6 @@ Example 4
 
 """
 
-from resource import student_marks
+from sal_sp1 import message
 
-print(student_marks)
+print(message)

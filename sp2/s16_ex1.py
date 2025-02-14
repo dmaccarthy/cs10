@@ -5,7 +5,7 @@ Example 1
 
 """
 
-from resource import marks_list
+from sal_sp2 import marks_list
 
 # Initialize accumulators
 student = 0
